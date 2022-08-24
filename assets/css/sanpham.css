@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.nav-sub{
+    background-color: rgb(241, 238, 238);
+    padding: 18px 0;
+}
+
+.nav-sub a{
+    color: rgb(220, 89, 33);
+}
+
+.nav-sub span{
+    color: #777;
+}
+
+/* End Nav-sub */
+/* Start main */
+.main-area{
+    padding: 20px 0;
+}
+
+.main-area .banner-left{
+    overflow:hidden;
+    max-width: 100%;
+}
+
+.main-area .banner-left .img-banner{
+    background: url(/img-product/banner/bn1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 100%;
+    height: 34vh;
+    border-style: none;
+    transition: transform 4s ease;
+}
+
+.main-area .banner-left .img-banner:hover{
+    transform: scale(1.4);
+}
+
+/* Product */
+.product-area{
+    background: #F7F7F9;
+}
+
+.card-product{
+    margin: 30px 0;
+}
+.card-product .img-product img{
+    width: 100%;
+    height: auto;
+}
+
+
+.card-product .img-product img:hover{
+    opacity: 0.6;
+}
+
+.inf-product a{
+    color: black;
+}
+
+.inf-product p{
+    color: #999;
+    padding: 10px;
+}
+
+.inf-product .btn-view{
+    padding: 10px 20px;
+    background-color: white;
+    color: orange;
+    border: 1px solid orange;
+    transition: all .4s ease-in-out;
+}
+
+.inf-product .btn-view:hover{
+    color: #000;
+    border: 1px solid #000;
+}
+
+.menu-right .categories{
+    border: 1px solid #777;
+}
+
+.menu-right  h3{
+    text-transform: uppercase;
+    font-size: 28px;
+    text-align: center;
+    padding: 6px 0;
+    letter-spacing: 1px;
+    background: #f5f5f5;
+}
+
+.categories .list-menu{
+    list-style: none;
+    padding: 0 20px 20px 10px;
+}
+
+.categories .list-menu .link-menu{
+    padding: 16px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.categories .list-menu .link-menu a>i{
+    color: orange;
+    padding-right: 14px;
+}
+
+.categories .list-menu .link-menu a{
+    color: #222;
+    transition: all .8s ease;
+}
+
+.categories .list-menu .link-menu a:hover{
+    color: orange;
+}
+
+.categories .list-menu .link-menu span{
+    color: #999;
+}
+
+.new-product{
+    border: 1px solid #999;
+    margin: 20px 0;
+}
+
+.new-product .card-new-product{
+    display: flex;
+    padding: 10px;
+}
+
+
+.new-product .card-new-product .img-new-product img{
+    width: 100%;
+    height: auto;
+    border: 1px solid orange;
+    
+}
+
+.new-product .info-new-product{
+    width: 100em;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.new-product a{
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all .4s ease-in-out;
+}
+
+.new-product a:hover{
+    color: orange;
+}
+
+.new-product .btn-view{
+    padding: 6px 12px;
+    color: orange;
+    border: 1px solid orange;
+    width: 130px;
+    margin-top: 10px;
+}
+
+.new-product .btn-view:hover{
+    color: black;
+    border: 1px solid black;
+}
+
+.banner-product-right .img-banner-right{
+    border: 20px solid #F7F7F9;
+}
+
+.banner-product-right .img-banner-right img{
+    width: 100%;
+    height: auto;
+}
+
+/* End Product */
+/* End main*/
